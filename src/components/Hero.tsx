@@ -32,7 +32,7 @@ const Hero = () => {
           >
             <Avatar className="w-24 h-24 md:w-32 md:h-32 border-4 border-secondary/20 shadow-teal">
               <AvatarImage
-                src="public/images/KALYAN.png"
+                src="/KALYAN.png"
                 alt={personalInfo.name}
                 className="object-cover"
               />
