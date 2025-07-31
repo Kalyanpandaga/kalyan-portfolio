@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Modern Professional Palette */
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 0 0% 100%;
+    --foreground: 220 15% 15%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    /* Primary Palette - Deep Navy */
+    --primary: 220 50% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 220 45% 35%;
+    --primary-dark: 220 55% 15%;
+
+    /* Secondary Palette - Vibrant Teal */
+    --secondary: 190 75% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 190 70% 55%;
+    --secondary-dark: 190 80% 35%;
+
+    /* Accent Palette - Soft Teal */
+    --accent: 190 50% 92%;
+    --accent-foreground: 220 50% 25%;
+
+    /* Muted Grays */
+    --muted: 220 10% 96%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 220 15% 85%;
+    --input: 220 15% 90%;
+    --ring: 190 75% 45%;
+
+    /* Custom Portfolio Colors */
+    --hero-gradient-start: 220 50% 25%;
+    --hero-gradient-end: 190 75% 45%;
+    --skill-bg: 190 50% 97%;
+    --project-card-hover: 190 30% 98%;
+
+    /* Shadows */
+    --shadow-soft: 220 25% 15%;
+    --shadow-teal: 190 75% 45%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode Base */
+    --background: 220 25% 8%;
+    --foreground: 220 10% 95%;
+
+    /* Dark Card System */
+    --card: 220 20% 12%;
+    --card-foreground: 220 10% 95%;
+
+    /* Dark Popover */
+    --popover: 220 20% 12%;
+    --popover-foreground: 220 10% 95%;
+
+    /* Dark Primary - Light Teal */
+    --primary: 190 75% 65%;
+    --primary-foreground: 220 25% 8%;
+    --primary-light: 190 70% 75%;
+    --primary-dark: 190 80% 55%;
+
+    /* Dark Secondary - Navy */
+    --secondary: 220 45% 25%;
+    --secondary-foreground: 220 10% 95%;
+    --secondary-light: 220 40% 35%;
+    --secondary-dark: 220 50% 15%;
+
+    /* Dark Accent */
+    --accent: 220 15% 18%;
+    --accent-foreground: 190 75% 65%;
+
+    /* Dark Muted */
+    --muted: 220 15% 15%;
+    --muted-foreground: 220 10% 65%;
+
+    /* Dark Destructive */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 220 10% 95%;
+
+    /* Dark Borders */
+    --border: 220 15% 20%;
+    --input: 220 15% 18%;
+    --ring: 190 75% 65%;
+
+    /* Dark Custom Colors */
+    --hero-gradient-start: 190 75% 65%;
+    --hero-gradient-end: 220 45% 25%;
+    --skill-bg: 220 15% 12%;
+    --project-card-hover: 220 15% 15%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
