@@ -30,11 +30,11 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="mb-4 flex justify-center"
           >
-            <Avatar className="w-24 h-24 md:w-32 md:h-32 border-4 border-secondary/20 shadow-teal">
+            <Avatar className="w-28 h-28 md:w-36 md:h-36 border-4 border-secondary/20 shadow-teal">
               <AvatarImage
-                src="/KALYAN.png"
+                src="/profile.jpg"
                 alt={personalInfo.name}
-                className="object-cover"
+                className="object-cover [object-position:center_28%]"
               />
               <AvatarFallback className="text-2xl font-bold bg-hero-gradient text-white">
                 {personalInfo.name

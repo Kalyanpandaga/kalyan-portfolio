@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from 'react-icons/fa';
-import { personalInfo } from '../constants/portfolioData';
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
+import { personalInfo } from "../constants/portfolioData";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,22 +9,22 @@ const Footer = () => {
     {
       icon: <FaGithub />,
       href: personalInfo.socialLinks.github,
-      label: "GitHub"
+      label: "GitHub",
     },
     {
       icon: <FaLinkedin />,
       href: personalInfo.socialLinks.linkedin,
-      label: "LinkedIn"
+      label: "LinkedIn",
     },
     {
       icon: <FaEnvelope />,
       href: personalInfo.socialLinks.email,
-      label: "Email"
-    }
+      label: "Email",
+    },
   ];
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -100,9 +100,13 @@ const Footer = () => {
             className="text-primary-foreground/70 text-sm"
           >
             <p className="flex items-center justify-center gap-2 mb-2">
-              Made with <FaHeart className="text-red-400" /> by {personalInfo.name}
+              Made with <FaHeart className="text-red-400" /> by{" "}
+              {personalInfo.name}
             </p>
-            <p>© {currentYear} All rights reserved.</p>
+            <p className="mt-2 text-sm text-primary-foreground/60 italic">
+              No © copyright issues. Feel free to copy. If you need any help,
+              ping me!
+            </p>
           </motion.div>
 
           {/* Back to top hint */}
@@ -117,7 +121,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-xs text-primary-foreground/50 hover:text-secondary transition-colors duration-300"
             >
-              Click my name to scroll to top ↑
+              Click here to scroll to top ↑
             </button>
           </motion.div>
         </div>

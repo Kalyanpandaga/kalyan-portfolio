@@ -61,16 +61,18 @@ const Projects = () => {
                 <FaExternalLinkAlt className="w-4 h-4" />
               </motion.a>
             )}
-            <motion.a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FaGithub className="w-4 h-4" />
-            </motion.a>
+            {project.githubUrl && (
+              <motion.a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <FaGithub className="w-4 h-4" />
+              </motion.a>
+            )}
           </div>
         </div>
 
