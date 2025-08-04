@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Resume from "../components/Resume";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import QAAssistant from "@/components/QAAssistant";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Skills />
       <Projects />
       <Resume />
+      <QAAssistant />
       <Contact />
       <Footer />
     </div>

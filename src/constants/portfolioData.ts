@@ -433,3 +433,14 @@ export const projects = {
     },
   ],
 };
+
+export const placeholderExampleQuestions = [
+  "Why do you have a career gap?",
+  "Which is your strongest project?",
+  "How many years of React experience do you have?",
+  "What technologies do you specialize in?",
+  "Tell me about your AI Mock Interview Platform",
+  "What makes you different from other developers?",
+  "How do you handle challenging projects?",
+  "What is your experience with backend development?",
+];
