@@ -435,6 +435,7 @@ export const projects = {
 };
 
 export const placeholderExampleQuestions = [
+  "Ask any question about me",
   "How many years of experience do you have?",
   "Are you available for immediate joining?",
   "Why did you leave your last job?",
