@@ -435,12 +435,18 @@ export const projects = {
 };
 
 export const placeholderExampleQuestions = [
+  "How many years of experience do you have?",
+  "Are you available for immediate joining?",
+  "Why did you leave your last job?",
+  "Can you explain your previous role?",
+  "What are your salary expectations?",
+  "Are you open to remote roles or relocation?",
+  "What challenges did you solve?",
+  "Why did you learn MERN after Django?",
+  "Which project are you most proud of?",
+  "What were you doing during your break after NxtWave?",
+  " Where can I find the demo and test credentials for your projects?",
   "Why do you have a career gap?",
-  "Which is your strongest project?",
-  "How many years of React experience do you have?",
-  "What technologies do you specialize in?",
-  "Tell me about your AI Mock Interview Platform",
   "What makes you different from other developers?",
   "How do you handle challenging projects?",
-  "What is your experience with backend development?",
 ];
