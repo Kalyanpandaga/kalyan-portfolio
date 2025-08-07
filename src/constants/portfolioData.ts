@@ -231,7 +231,7 @@ export const projects = {
       ],
       category: "fullstack",
       liveUrl: "https://personal-finance-visualizer-lime.vercel.app",
-      githubUrl: "https://github.com/kalyanpandata/personal-finance-visualizer",
+      githubUrl: "https://github.com/Kalyanpandaga/personal-finance-visualizer",
     },
     {
       id: 6,
@@ -279,7 +279,7 @@ export const projects = {
         "JWT Authentication",
       ],
       category: "frontend",
-      liveUrl: "https://jobshunt.ccbp.tech/",
+      liveUrl: "https://jobbyapp-l536.onrender.com/",
       githubUrl: "https://github.com/Kalyanpandaga/JOBBYAPP",
     },
     {
@@ -306,7 +306,7 @@ export const projects = {
         "Local Storage",
       ],
       category: "frontend",
-      liveUrl: "https://nxttrenzshoping.ccbp.tech",
+      liveUrl: "https://nxttrendz-rzws.onrender.com",
       githubUrl: "https://github.com/Kalyanpandaga/nxtTrendz",
     },
     {
